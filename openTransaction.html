@@ -52,13 +52,13 @@
         language: (navigator.browserLanguage || navigator.language).toLowerCase()
       }
 
-      let scheme = `grampus://open?type=1&txid=${getUrlParam("txid")}&to=${getUrlParam("to")}`
+      let scheme = `dusd://open?type=1&txid=${getUrlParam("txid")}&to=${getUrlParam("to")}`
 
       var t;
       var config = {
         /*scheme:必须*/
         scheme: scheme,
-        download_url: 'https://assets.yuhu.tech/download-app',
+        download_url: 'http://assets.dusd.com/download-app',
         timeout: 2000
       };
 
